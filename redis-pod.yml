@@ -7,7 +7,7 @@ metadata:
     app: demo-voting-app
 spec:
   containers:
-  - name: redis-pod
+  - name: redis
     image: redis
     resources:
       limits:
